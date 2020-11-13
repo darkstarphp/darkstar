@@ -7,7 +7,7 @@ use DarkStar\Exception\ExceptionHandler;
 use DarkStar\Exception\Http\BadRequestException;
 use DarkStar\Exception\Http\MethodNotAllowedException;
 use DarkStar\Exception\Http\NotFoundException;
-use DarkStar\Logger\NullLogger;
+use DarkStar\Log\NullLogger;
 use DarkStar\Http\Request;
 use PHPUnit\Framework\TestCase;
 

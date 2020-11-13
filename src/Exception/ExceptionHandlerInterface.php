@@ -5,7 +5,7 @@ declare(strict_types = 1);
 namespace DarkStar\Exception;
 
 use DarkStar\Http\Response;
-use DarkStar\Logger\LoggerInterface;
+use DarkStar\Log\LoggerInterface;
 use DarkStar\Http\Request;
 
 interface ExceptionHandlerInterface

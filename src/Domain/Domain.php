@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace DarkStar\Domain;
 
-use DarkStar\Logger\LoggerInterface;
+use DarkStar\Log\LoggerInterface;
 
 abstract class Domain
 {

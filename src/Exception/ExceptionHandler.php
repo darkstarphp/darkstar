@@ -6,7 +6,7 @@ namespace DarkStar\Exception;
 
 use DarkStar\Http\Request;
 use DarkStar\Http\Response;
-use DarkStar\Logger\LoggerInterface;
+use DarkStar\Log\LoggerInterface;
 use DarkStar\Exception\Http\BadRequestException;
 use DarkStar\Exception\Http\MethodNotAllowedException;
 use DarkStar\Exception\Http\NotFoundException;

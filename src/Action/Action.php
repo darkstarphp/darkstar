@@ -5,7 +5,7 @@ declare(strict_types = 1);
 namespace DarkStar\Action;
 
 use DarkStar\Http\Request;
-use DarkStar\Logger\LoggerInterface;
+use DarkStar\Log\LoggerInterface;
 use DarkStar\Responder\ResponderInterface;
 
 abstract class Action implements ActionInterface

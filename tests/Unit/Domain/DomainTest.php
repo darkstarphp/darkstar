@@ -2,7 +2,7 @@
 
 namespace DarkStar\Tests\Unit\Domain;
 
-use DarkStar\Logger\NullLogger;
+use DarkStar\Log\NullLogger;
 use DarkStar\Tests\Fixtures\DummyDomain;
 use PHPUnit\Framework\TestCase;
 

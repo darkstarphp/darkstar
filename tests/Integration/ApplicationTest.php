@@ -3,7 +3,7 @@
 namespace DarkStar\Tests\Integration;
 
 use DarkStar\Application;
-use DarkStar\Logger\Factory as LoggerFactory;
+use DarkStar\Log\Factory as LoggerFactory;
 use DarkStar\Exception\ExceptionHandler;
 use DarkStar\Http\Request;
 use DarkStar\Router\Router;
@@ -43,7 +43,7 @@ class ApplicationTest extends TestCase
         $this->assertInstanceOf('DarkStar\Application', $app);
         $this->assertInstanceOf('DarkStar\Http\Request', $app->request);
         $this->assertInstanceOf('DarkStar\Router\RouterInterface', $app->router);
-        $this->assertInstanceOf('DarkStar\Logger\LoggerInterface', $app->logger);
+        $this->assertInstanceOf('DarkStar\Log\LoggerInterface', $app->logger);
         $this->assertInstanceOf('DarkStar\Exception\ExceptionHandler', $app->exceptionHandler);
     }
 

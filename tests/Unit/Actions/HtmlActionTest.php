@@ -2,7 +2,7 @@
 
 namespace DarkStar\Tests\Unit\Action;
 
-use DarkStar\Logger\NullLogger;
+use DarkStar\Log\NullLogger;
 use DarkStar\Responder\HtmlResponder;
 use DarkStar\Http\Request;
 use DarkStar\Tests\Fixtures\HelloWorldHtmlAction;
