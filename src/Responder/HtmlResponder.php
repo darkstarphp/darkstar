@@ -26,6 +26,7 @@ class HtmlResponder extends Responder
      */
     public function found(array $data): Response
     {
+        $this->response->setStatus(200);
         $this->response->setBody($data['body'] ?? '');
         return $this->response;
     }
