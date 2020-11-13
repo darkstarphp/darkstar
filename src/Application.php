@@ -19,7 +19,7 @@ use DarkStar\Exception\Http\MethodNotAllowedException;
 use DarkStar\Exception\Http\NotFoundException;
 use DarkStar\Http\Request;
 use DarkStar\Http\Response;
-use DarkStar\Logger\LoggerInterface;
+use DarkStar\Log\LoggerInterface;
 use DarkStar\Router\RouterInterface;
 use DarkStar\Router\Router;
 
