@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75c872f6a94f1bdedb32303cab73c0b3",
+    "content-hash": "e27aeb8b7fd9437c6e6370c255d40ec8",
     "packages": [
         {
             "name": "darkstar/http",
@@ -195,6 +195,54 @@
                 "router"
             ],
             "time": "2020-11-13T06:25:04+00:00"
+        },
+        {
+            "name": "darkstar/view",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darkstarphp/darkstar.view.git",
+                "reference": "82d11910dfa3b65cefc82e95dbc8f84ec2bc4bb6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darkstarphp/darkstar.view/zipball/82d11910dfa3b65cefc82e95dbc8f84ec2bc4bb6",
+                "reference": "82d11910dfa3b65cefc82e95dbc8f84ec2bc4bb6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DarkStar\\View\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Aura.View Contributors",
+                    "homepage": "https://github.com/auraphp/Aura.View/contributors"
+                }
+            ],
+            "description": "Provides an implementation of the TemplateView and TwoStepView patterns, with support for helpers and for closures as templates, using PHP itself as the templating language.",
+            "homepage": "https://github.com/elevenone/View",
+            "keywords": [
+                "Escape",
+                "escaper",
+                "escaping",
+                "template",
+                "template view",
+                "two step view",
+                "two-step view",
+                "twostep view",
+                "view"
+            ],
+            "time": "2020-11-13T07:21:22+00:00"
         },
         {
             "name": "nikic/fast-route",
